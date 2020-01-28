@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/holo_green_light" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <LinearLayout android:gravity="center" android:id="@+id/ly" android:background="@android:color/holo_blue_dark" android:layout_width="match_parent" android:layout_height="60dp">
+        <TextView android:textSize="28dp" android:textStyle="bold" android:textColor="@android:color/background_light" android:gravity="center" android:id="@+id/AC" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Restro"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/button" android:background="@drawable/menu" android:layout_width="90dp" android:layout_height="90dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="start"/>
+    <ImageButton android:id="@+id/button2" android:background="@drawable/favorites" android:layout_width="90dp" android:layout_height="90dp" android:layout_marginTop="40dp" android:layout_below="@+id/button" android:layout_centerHorizontal="true" android:onClick="favourite" app:layout_constraintTop_toBottomOf="@+id/button"/>
+</RelativeLayout>

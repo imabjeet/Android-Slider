@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="540dp"/>
+    <ImageButton android:id="@+id/back" android:background="@drawable/left" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginLeft="35dp" android:layout_marginTop="10dp" android:layout_below="@+id/pager" android:layout_alignParentLeft="true" android:onClick="back"/>
+    <ImageButton android:id="@+id/fav" android:background="@drawable/fav" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="10dp" android:layout_below="@+id/pager" android:layout_centerHorizontal="true" android:onClick="selectFav"/>
+    <ImageButton android:id="@+id/next" android:background="@drawable/right" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="10dp" android:layout_marginRight="35dp" android:layout_below="@+id/pager" android:layout_alignParentRight="true" android:onClick="next"/>
+</RelativeLayout>
